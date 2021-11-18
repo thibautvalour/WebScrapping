@@ -44,7 +44,7 @@ class Entry(object):
         password_bar.send_keys(Keys.ENTER)
 
     def start(self):
-        self.browser.get('https://kartable.fr')
+        self.browser.get(link_of_the_website) #Should be changed by the K website
         time.sleep(random.uniform(0.5, 1.5))
         self.connexion()
 
