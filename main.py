@@ -6,7 +6,7 @@ import navigation
 
 def scrapp(email, password):
 
-    # Acces and log in Kartable
+    # Acces and log in
     entry = Entry(email, password)
     entry.start()
     entry.logger.info('Connexion')
@@ -16,4 +16,4 @@ def scrapp(email, password):
     navigation.level_step(entry)
 
 if __name__ == '__main__':
-    scrapp(email='thibautvalour3008@gmail.com', password='Rugbycase42')
+    scrapp(email='...', password='...')
